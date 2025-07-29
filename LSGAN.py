@@ -10,9 +10,8 @@ filename = 'file'
 
 df = pd.read_csv(filename)
 
-processed_data = df['Ecell/V'].values[:760]
+processed_data = df[‘data’]
 
-# 修改 introduce_missing_data 函数
 def introduce_missing_data(data, missing_ratio=0.1):
     min_val, max_val = np.min(data), np.max(data) 
     missing_index = int(len(data) * (1 - missing_ratio))
