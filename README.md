@@ -3,4 +3,4 @@ This project proposes a novel approach for State of Health (SOH) estimation of l
 
 The file contains relevant model Python code examples. LSGAN.py, GAF.py, Swin Transformer+LSTM.py.
 
-At the same time, we have provided some experimental data for your reference. 
+At the same time, we have provided some experimental data for your reference. The file contains aging data for two types of lithium-ion batteries: LiNCA and LiFePO4.
