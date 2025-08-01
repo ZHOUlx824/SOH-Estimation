@@ -80,7 +80,7 @@ criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-4)
 
 # 训练函数
-def train(model, loader, criterion, optimizer, epochs=20):
+def train(model, loader, criterion, optimizer, epochs=200):
     model.train()
     for epoch in range(epochs):
         total_loss = 0
